@@ -19,7 +19,7 @@ public class StageCoachMain extends Application {
         final StageStyle stageStyle = configStageStyle();
 
         FXMLLoader fxmlLoader = new FXMLLoader(StageCoachMain.class
-            .getResource("/projavafx/stagecoach/ui/StageCoach.fxml"));
+            .getResource("/fxml/StageCoach.fxml"));
         Group rootGroup = fxmlLoader.load();
 
         final StageCoachController controller = fxmlLoader.getController();
